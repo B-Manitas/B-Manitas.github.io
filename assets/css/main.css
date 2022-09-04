@@ -2686,7 +2686,7 @@ input, select, textarea {
 		justify-content: space-between;
 	}
 
-	.projet-footer span, .features article span, .round-link {
+	.projet-footer span, .features article span, .projet-footer-left, .round-link {
 		padding: 15px;
 	}
 
