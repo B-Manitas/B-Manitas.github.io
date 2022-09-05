@@ -2673,6 +2673,8 @@ input, select, textarea {
 	.round-link {
 		background-color: rgba(62, 66, 88, 0.8);
 		border-radius: 5px 5px 0px 0px;
+		padding: 10px 25px 10px 25px;
+		border-bottom-color: transparent;
 	}
 
 	.round-link:hover {
@@ -2684,10 +2686,12 @@ input, select, textarea {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		padding: 5px 0 15px 15px;
 	}
-
-	.projet-footer span, .features article span, .projet-footer-left, .round-link {
-		padding: 15px;
+	
+	.projet-footer span, .features article span, .projet-footer-left {
+		padding: 15px;	 
+		padding-left: 0px;
 	}
 
 
@@ -3043,6 +3047,7 @@ input, select, textarea {
 		border-radius: 5px;
 		margin: 1.5em 3em 1.5em 0;
 		width: calc(50% - 1.5em);
+		flex: 1 auto;
 	}
 
 		.features article:nth-child(2n) {
