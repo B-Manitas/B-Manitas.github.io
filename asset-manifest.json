@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.695badeb.css",
+    "main.js": "/static/js/main.3430fe36.js",
+    "static/media/messagingapp.gif": "/static/media/messagingapp.5aa73aa78c3f48540ace.gif",
+    "static/media/gol.gif": "/static/media/gol.d1616a5af247adf77157.gif",
+    "index.html": "/index.html",
+    "main.695badeb.css.map": "/static/css/main.695badeb.css.map",
+    "main.3430fe36.js.map": "/static/js/main.3430fe36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.695badeb.css",
+    "static/js/main.3430fe36.js"
+  ]
+}
