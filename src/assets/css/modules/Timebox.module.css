@@ -1,0 +1,75 @@
+.content {
+  display: flex;
+  padding-left: var(--padding-xll);
+  position: relative;
+}
+
+.line {
+  margin-right: var(--margin-xl);
+  height: 100px;
+  width: 5px;
+  background-color: var(--black);
+  position: relative;
+  display: flex;
+}
+
+.date {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-s);
+  color: var(--black);
+  height: 21px;
+  display: flex;
+  align-items: center;
+}
+
+.point {
+  width: 21px;
+  height: 21px;
+  background-color: var(--black);
+  border-radius: var(--border-radius-xl);
+  position: absolute;
+  top: 25%;
+  left: -8px;
+}
+
+.box {
+  padding-top: var(--padding-l);
+  padding-right: var(--padding-l);
+  width: 100%;
+}
+
+.box h2 {
+  text-align: left;
+}
+
+.box p {
+  color: var(--black);
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-s);
+}
+
+.box p a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.box p a:hover {
+  color: var(--black);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+@media screen and (max-width: 768px) {
+  .box h2,
+  .box p {
+    font-size: var(--font-size-xll);
+  }
+  
+  .date {
+    font-size: var(--font-size-xl);
+  }
+}
