@@ -1,0 +1,93 @@
+.glow-checkbox {
+  user-select: none;
+  --box_size: 80px;
+}
+
+.glow-checkbox input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: var(--box_size);
+  width: var(--box_size);
+  z-index: 100;
+}
+
+.glow-checkbox div {
+  position: relative;
+  height: var(--box_size);
+  width: var(--box_size);
+  background-color: var(--black);
+  color: var(--gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-size-xll);
+  cursor: pointer;
+
+  margin-left: var(--margin-m);
+  margin-right: var(--margin-m);
+
+  border-radius: var(--border-radius-xl);
+  box-shadow: var(--shadow-prm);
+}
+
+.glow-checkbox div:before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: calc(var(--box_size) / 2);
+  width: calc(var(--box_size) - 5px);
+  border-top-left-radius: var(--border-radius-xl);
+  border-top-right-radius: var(--border-radius-xl);
+  background-color: var(--white_light);
+}
+
+input[type="checkbox"]:checked ~ div {
+  color: yellow;
+  text-shadow: 0 0 15px yellow, 0 0 25px yellow;
+  animation: glow 1.5s linear infinite;
+}
+
+input[type="checkbox"]:hover ~ div {
+  color: var(--white);
+  text-shadow: 0 0 10px var(--white), 0 0 20px var(--white);
+  transition: text-shadow 0.2s cubic-bezier(0.04, 0.38, 0.28, 0.15);
+}
+
+@keyframes glow {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .glow-checkbox {
+    user-select: none;
+    --box_size: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .glow-checkbox {
+    user-select: none;
+    --box_size: 55px;
+  }
+}
+
+@media (max-width: 480px) {
+  .glow-checkbox {
+    user-select: none;
+    --box_size: 40px;
+  }
+}
+
+@media (max-width: 360px) {
+  .glow-checkbox {
+    user-select: none;
+    --box_size: 8vw;
+  }
+}

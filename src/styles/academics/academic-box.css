@@ -1,0 +1,61 @@
+.academic-box {
+  display: flex;
+  padding-left: var(--padding-xll);
+  position: relative;
+}
+
+.academic-box_line {
+  margin-right: var(--margin-xl);
+  height: 100px;
+  width: 5px;
+  background-color: var(--black);
+  position: relative;
+  display: flex;
+}
+
+.academic-box_date {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-s);
+  color: var(--black);
+  height: 21px;
+  display: flex;
+  align-items: center;
+}
+
+.academic-box_point {
+  width: 21px;
+  height: 21px;
+  background-color: var(--black);
+  border-radius: var(--border-radius-xl);
+  position: absolute;
+  top: 25%;
+  left: -8px;
+}
+
+.academic-box_info {
+  padding-top: var(--padding-l);
+  padding-right: var(--padding-l);
+  width: 100%;
+}
+
+.academic-box_info p {
+  color: var(--black);
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-s);
+  padding-top: var(--padding-s);
+}
+
+.academic-box_info p a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.academic-box_info p a:hover {
+  color: var(--black);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}

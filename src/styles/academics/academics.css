@@ -1,0 +1,13 @@
+.academic-wrapper {
+  filter: var(--drop_shadow);
+}
+
+.academic-wrapper .article {
+  background-color: var(--gray_light);
+  clip-path: polygon(0 0, 100% 0, 100% 78%, 75% 100%, 11% 100%, 0 90%);
+}
+
+.article h1 {
+  margin-top: var(--margin-l);
+  margin-bottom: var(--margin-l);
+}

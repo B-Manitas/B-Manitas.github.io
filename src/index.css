@@ -6,17 +6,21 @@
   padding: 0;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   --black_light: rgba(0, 0, 0, 0.1);
   --black: #18191f;
   --white_light: rgba(255, 255, 255, 0.1);
   --white: #fff;
   --gray_light: #f5f5f5;
-  --gray: #808080;
+  --gray: #828282;
   --gray_dark: #4c4d50;
 
-  --border-radius-s: .2vw;
-  --border-radius-m: .5vw;
+  --border-radius-s: 0.2vw;
+  --border-radius-m: 0.5vw;
   --border-radius-xl: 1vw;
 
   --padding-s: 0.3vmax;
@@ -34,12 +38,11 @@ body {
   --font-weight-m: 500;
   --font-weight-xl: 600;
 
-  --font-size-s: 1.3vmin;
-  --font-size-m: 1.6vmin;
-  --font-size-l: 2.1vmin;
-  --font-size-xl: 2.5vmin;
-  --font-size-xll: 3.3vmin;
-  --font-size-xlll: 4.8vmin;
+  --font-size-s: 0.8rem;
+  --font-size-m: 1rem;
+  --font-size-l: 1.2rem;
+  --font-size-xl: 2.3rem;
+  --font-size-xll: 3.2rem;
 
   --drop_shadow: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.2));
 
@@ -77,11 +80,19 @@ code {
 h1 {
   color: var(--black);
   font-weight: var(--font-weight-xl);
-  font-size: var(--font-size-xll);
+  font-size: var(--font-size-xl);
+  padding-bottom: var(--padding-s);
 }
 
 h2 {
   color: var(--black);
   font-weight: var(--font-weight-m);
   font-size: var(--font-size-l);
+}
+
+@media (max-width: 768px) {
+  body {
+    --font-size-xl: 5vw;
+    --font-size-xll: 5.7vw;
+  }
 }

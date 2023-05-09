@@ -1,0 +1,13 @@
+.article {
+  padding: 50px var(--padding-xll);
+}
+
+.article h1 {
+  border-bottom: 1px solid var(--black);
+}
+
+@media (max-width: 1080px) {
+  .article {
+    padding: 50px var(--padding-xl);
+  }
+}

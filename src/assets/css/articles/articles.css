@@ -1,9 +1,0 @@
-#content {
-  padding: 50px var(--padding-xll);
-}
-
-@media (max-width: 1080px) {
-  #content {
-    padding: 50px var(--padding-xl);
-  }
-}
