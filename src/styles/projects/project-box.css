@@ -72,6 +72,16 @@
   box-shadow: var(--shadow-fth);
 }
 
+.project-box_buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-box_btn {
+  margin: 0 var(--margin-s);
+}
+
 .project-box_icon {
   color: var(--black);
 }
