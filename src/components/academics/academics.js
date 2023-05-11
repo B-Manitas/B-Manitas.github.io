@@ -20,7 +20,9 @@ const Academic = () => (
     <div className="article">
       <h1>My educational background</h1>
 
-      <AcademicBoxGen data={data} />
+      <div className="academics-grid">
+        <AcademicBoxGen data={data} />
+      </div>
     </div>
   </div>
 );

@@ -1,45 +1,35 @@
 .academic-box {
   display: flex;
-  padding-left: var(--padding-xll);
   position: relative;
+  justify-content: center;
 }
 
-.academic-box_line {
-  margin-right: var(--margin-xl);
-  height: 100px;
-  width: 5px;
-  background-color: var(--black);
+.academic-box_info {
   position: relative;
-  display: flex;
+  padding: var(--padding-l);
+  min-height: 100px;
+  padding-bottom: 0;
+  width: 100%;
+  border-left: 5px solid var(--black);
 }
 
 .academic-box_date {
-  position: absolute;
-  top: 25%;
-  left: 0;
-  right: 0;
   font-size: var(--font-size-l);
   font-weight: var(--font-weight-s);
   color: var(--black);
-  height: 21px;
-  display: flex;
   align-items: center;
+  margin: auto;
+  padding-right: var(--padding-xl);
 }
 
 .academic-box_point {
   width: 21px;
   height: 21px;
   background-color: var(--black);
-  border-radius: var(--border-radius-xl);
+  border-radius: 50%;
   position: absolute;
-  top: 25%;
-  left: -8px;
-}
-
-.academic-box_info {
-  padding-top: var(--padding-l);
-  padding-right: var(--padding-l);
-  width: 100%;
+  top: calc(50% - 20px / 2);
+  left: -13px;
 }
 
 .academic-box_info p {
@@ -58,4 +48,11 @@
   color: var(--black);
   text-decoration: underline;
   text-decoration-style: dotted;
+}
+
+
+@media (max-width: 760px) {
+  .academic-box_info {
+    padding-bottom: var(--padding-xl);
+  }
 }

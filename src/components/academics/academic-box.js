@@ -13,11 +13,8 @@ const AcademicBox = (data) => (
   <div className="academic-box">
     <span className="academic-box_date">{data.date_to}</span>
 
-    <div className="academic-box_line">
-      <div className="academic-box_point"></div>
-    </div>
-
     <div className="academic-box_info">
+      <div className="academic-box_point"></div>
       <h2>{data.title}</h2>
 
       <p>

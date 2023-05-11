@@ -11,3 +11,10 @@
   margin-top: var(--margin-l);
   margin-bottom: var(--margin-l);
 }
+
+.academics-grid {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr;
+  gap: 0px;
+}
