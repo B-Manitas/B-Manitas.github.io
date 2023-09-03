@@ -2,7 +2,8 @@
 import React from "react";
 
 // Imports custom components
-import AcademicBox from "./academic-box";
+import AcademicBoxInternship from "./academic-box-internship";
+import AcademicBoxDegree from "./academic-box-degree";
 
 /**
  * Module for the academic box generator.
@@ -10,6 +11,12 @@ import AcademicBox from "./academic-box";
  * @returns {JSX.Element}
  */
 const AcademicBoxGen = ({ data }) =>
-  data.map((item, id) => <AcademicBox {...item} key={id} />);
+  data.map((item, id) => {
+    if (item.type === "internship") {
+      return <AcademicBoxInternship {...item} key={id} />;
+    } else {
+      return <AcademicBoxDegree {...item} key={id} />;
+    }
+  });
 
 export default AcademicBoxGen;

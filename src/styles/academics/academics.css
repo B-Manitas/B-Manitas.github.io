@@ -18,3 +18,10 @@
   grid-template-columns: 1fr;
   gap: 0px;
 }
+
+
+@media (max-width: 760px) {
+  .academic-wrapper .article {
+    clip-path: polygon(0 0, 100% 0, 100% 99%, 95% 100%, 2% 97%, 0 0%);
+  }
+}

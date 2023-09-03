@@ -9,7 +9,7 @@ import "styles/academics/academic-box.css";
  * @param {object} data - The data to display.
  * @returns {JSX.Element}
  */
-const AcademicBox = (data) => (
+const AcademicBoxDegree = (data) => (
   <div className="academic-box">
     <span className="academic-box_date">{data.date_to}</span>
 
@@ -18,13 +18,25 @@ const AcademicBox = (data) => (
       <h2>{data.title}</h2>
 
       <p>
-        <a href={data.src} target="_blank" rel="noreferrer">
+        <span className="emoji">🏢</span>
+        <a href={data.link} target="_blank" rel="noreferrer">
           {data.school}
-        </a>{" "}
-        in {data.location}.
+        </a>
+      </p>
+
+      <p>
+        <span className="emoji">📍</span>
+        {data.location}.
+      </p>
+
+
+      <p>
+        <span className="emoji">🗓️</span>
+        From <span className="date">{data.date_from}</span> to{" "}
+        <span className="date">{data.date_to}</span>.
       </p>
     </div>
   </div>
 );
 
-export default AcademicBox;
+export default AcademicBoxDegree;
