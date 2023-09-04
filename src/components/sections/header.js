@@ -17,8 +17,8 @@ const Header = () => (
   <div>
     <header>
       <nav>
-        <GlowButton text="Resume" src="files/resume.pdf" download />
         <GlowButton text="GitHub" src="https://github.com/B-Manitas" />
+        <GlowButton text="LinkedIn" src="https://www.linkedin.com/in/b-manitas/" />
       </nav>
 
       <div className="header-title">
