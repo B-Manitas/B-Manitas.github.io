@@ -38,7 +38,7 @@ const PROJECT = [
         github: "https://github.com/B-Manitas/Oh-Wow",
         image: "oh-wow.png",
         download: "",
-        tools: ["React Native,", "MangoDB"],
+        tools: ["React Native,", "MongoDB"],
       },
       {
         id: 1,
