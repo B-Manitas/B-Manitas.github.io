@@ -35,8 +35,4 @@
     grid-column: 1;
     grid-row: 1;
   }
-
-  .project-box-gen_right {
-    display: none;
-  }
 }
