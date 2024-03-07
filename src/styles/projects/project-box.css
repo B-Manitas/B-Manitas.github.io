@@ -110,6 +110,7 @@
 @media (max-width: 768px) {
   .project-box {
     max-width: 100%;
+    transform: translateX(0);
   }
 
   .project-box_image img,
