@@ -3,6 +3,28 @@ const PROJECT = [
     language: "Data Science",
     projets: [
       {
+        id: 4,
+        title: "Pattern Recognition : Image classification of Jupyter's atmosphere",
+        date: "2024",
+        description:
+          "This project explores recognizing patterns in Jupiter's atmosphere. Hosted by the University Paris-Saclay, Telecom Paris, and Ecole Polytechnique, the objective is to **classify five different atmospheric patterns** of Jupiter.\n\nThe **preprocessing phase** of this project involves dividing the images into segments using the unsupervised KMeans model. This segmentation is based on grouping similar pixels together, thereby simplifying subsequent analysis.\n\nIn terms of **model construction**, a One Versus Rest approach is employed, utilizing a random forest model. Each classifier within this ensemble is fine-tuned with specific parameters, with the goal of accurately determining whether an image belongs to its respective class.",
+        github: "https://github.com/B-Manitas/Jupiter-Atmosphere",
+        image: "",
+        download: "",
+        tools: ["Python,", "Scikit-Learn,", "Pandas,", "NumPy"],
+      },
+      {
+        id: 3,
+        title: "Natural Language Processing : Classifying AI-generated text",
+        date: "2024",
+        description:
+          "This Data Science endeavor centers around the development of a **text classifier** capable of distinguishing between AI-generated and human-written text. Leveraging a dataset sourced from Kaggle, containing a diverse range of textual data, the project aims to explore the nuances between these two types of content.\n\nThe preprocessing phase involves utilizing advanced techniques such as **TF-IDF** and **word2vec** embeddings to transform the raw text data into feature representations suitable for machine learning models. By extracting semantic relationships and contextual information from the text, these preprocessing methods enhance the effectiveness of our classification system.\n\nThroughout the project, rigorous experimentation and evaluation of the classifier are conducted to assess its performance accurately. Various **parameters are fine-tuned and optimized** to enhance the model's predictive capabilities and ensure its reliability in accurately identifying the origin of text samples.",
+        github: "https://github.com/B-Manitas/NLP-AI-Human",
+        image: "",
+        download: "",
+        tools: ["Python,", "Scikit-Learn,", "NLTK,", "Gensim"],
+      },
+      {
         id: 2,
         title: "Speed Dating : Predicting Romantic Matches",
         date: "2023",
@@ -15,15 +37,15 @@ const PROJECT = [
       },
       {
         id: 1,
-        title: "Disaster Tweets - Real or Not ?",
-        date: "2020",
+        title: "Data Science library",
+        date: "2023",
         description:
-          "This project is a **data analysis** project written in Python 3. The objective is to analyze the 'Real or Not? NLP with Disaster Tweets' database from the **Kaggle** Data Science competition. The project involves processing and cleaning the text data to prepare it for analysis.  \n\nThe project contains a TextMining class implemented in the textmining.py file, which is responsible for cleaning up the text data by removing stop words, punctuation, and other unnecessary elements. The notebook contains all the analyses of the text, which utilize various data analysis techniques, including statistical analysis, to **determine the accuracy of the tweets related to real disasters**.",
-        github: "https://github.com/B-Manitas/Real_Fake_Disaster_Tweets",
+          "**CMatrix**: A matrix management system specifically designed for performing advanced numerical calculations. CMatrix offers a range of features aimed at simplifying complex mathematical operations involving matrices, providing an efficient solution for computational tasks.\n\n**CDataFrame**: A dataframe manager designed to facilitate the manipulation and analysis of structured data. CDataFrame offers sophisticated functionalities for importing, cleaning, filtering, and analyzing tabular data, enabling smooth and efficient data exploration.\n\n**NeuralCPP**: A specialized library for simplified implementation of neural networks. NeuralCPP offers a comprehensive set of tools and functionalities for designing and training neural network models directly within the C++ environment.",
+        github: "https://github.com/B-Manitas/neuralcpp",
         image: "",
         download: "",
-        tools: ["Python,", "Pandas,", "NumPy"],
-      },
+        tools: ["C++,", "OPenMP,", "GoogleTest,", "GoogleBenchmark"],
+      }
     ],
   },
   {
