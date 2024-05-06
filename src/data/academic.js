@@ -1,11 +1,23 @@
 const ACADEMIC = [
   {
+    id: 5,
+    type: "internship",
+    title: "Enedis Internship - Unsupervised Machine Learning",
+    company: "Enedis",
+    location: "Paris, France",
+    date_from: "may",
+    date_to: "august 2024",
+    link: "https://www.enedis.fr/",
+    description:
+      "Development of an automatic fault localization mechanism for the electrical network based on voltage recordings, along with identification of potential use cases for this data.\nThe internship consists of four phases: understanding existing use cases, clustering recordings, exploring excursions, and identifying recurrent anomalies.",
+  },
+  {
     id: 4,
     type: "degree",
-    title: "Master's degree - Data Science",
+    title: "Master's degree - Data Science (First year)",
     location: "Orsay, France",
     date_from: "2023",
-    date_to: "2025",
+    date_to: "2024",
     school: "Paris-Saclay University",
     link: "https://www.universite-paris-saclay.fr/formation/master/informatique/m1-data-science",
   },
