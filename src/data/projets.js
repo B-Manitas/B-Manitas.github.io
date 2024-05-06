@@ -3,7 +3,7 @@ const PROJECT = [
     language: "Data Science",
     projets: [
       {
-        id: 4,
+        id: 5,
         title: "Pattern Recognition : Image classification of Jupyter's atmosphere",
         date: "2024",
         description:
@@ -14,18 +14,18 @@ const PROJECT = [
         tools: ["Python,", "Scikit-Learn,", "Pandas,", "NumPy"],
       },
       {
-        id: 3,
-        title: "Natural Language Processing : Classifying AI-generated text",
-        date: "2024",
+        id: 4,
+        title: "Stock Market Prediction",
+        date: "2023",
         description:
-          "This Data Science endeavor centers around the development of a **text classifier** capable of distinguishing between AI-generated and human-written text. Leveraging a dataset sourced from Kaggle, containing a diverse range of textual data, the project aims to explore the nuances between these two types of content.\n\nThe preprocessing phase involves utilizing advanced techniques such as **TF-IDF** and **word2vec** embeddings to transform the raw text data into feature representations suitable for machine learning models. By extracting semantic relationships and contextual information from the text, these preprocessing methods enhance the effectiveness of our classification system.\n\nThroughout the project, rigorous experimentation and evaluation of the classifier are conducted to assess its performance accurately. Various **parameters are fine-tuned and optimized** to enhance the model's predictive capabilities and ensure its reliability in accurately identifying the origin of text samples.",
-        github: "https://github.com/B-Manitas/NLP-AI-Human",
+          "The goal of this project is to **predict the friday stock market price** of a company based on the trends of the past 4 days.\n\nThe project consists of three main steps:\n\nData preprocessing: In this step, we cleaned the data by removing missing values and **replacing outliers**. We also performed normalization of numerical variables and encoding of categorical variables.\n\nData visualization: This involves exploring the distribution of data through visualizations to better understand the **data distribution** and **analyze the relationships** between different features. This also helps determine the most appropriate type of model for the problem.\n\nModel training: We used a machine learning model based on a **Random Forest** algorithm to predict a value. We adjusted the model's hyperparameters to get the best possible performance. The model was evaluated using **MSE** and **MAE** metrics.",
+        github: "https://github.com/B-Manitas/StockMarketML",
         image: "",
         download: "",
-        tools: ["Python,", "Scikit-Learn,", "NLTK,", "Gensim"],
+        tools: ["Python,", "Scikit-Learn,", "Pandas,", "NumPy"],
       },
       {
-        id: 2,
+        id: 3,
         title: "Speed Dating : Predicting Romantic Matches",
         date: "2023",
         description:
@@ -34,6 +34,17 @@ const PROJECT = [
         image: "",
         download: "",
         tools: ["Python,", "Scikit-Learn,", "Pandas,", "NumPy"],
+      },
+      {
+        id: 2,
+        title: "Natural Language Processing : Classifying AI-generated text",
+        date: "2024",
+        description:
+          "This Data Science endeavor centers around the development of a **text classifier** capable of distinguishing between AI-generated and human-written text. Leveraging a dataset sourced from Kaggle, containing a diverse range of textual data, the project aims to explore the nuances between these two types of content.\n\nThe preprocessing phase involves utilizing advanced techniques such as **TF-IDF** and **word2vec** embeddings to transform the raw text data into feature representations suitable for machine learning models. By extracting semantic relationships and contextual information from the text, these preprocessing methods enhance the effectiveness of our classification system.\n\nThroughout the project, rigorous experimentation and evaluation of the classifier are conducted to assess its performance accurately. Various **parameters are fine-tuned and optimized** to enhance the model's predictive capabilities and ensure its reliability in accurately identifying the origin of text samples.",
+        github: "https://github.com/B-Manitas/NLP-AI-Human",
+        image: "",
+        download: "",
+        tools: ["Python,", "Scikit-Learn,", "NLTK,", "Gensim"],
       },
       {
         id: 1,
