@@ -15,11 +15,11 @@ import "styles/academics/academic-box.css";
  */
 const AcademicBoxInternship = (data) => {
   const [show, setShow] = useState(false);
-  console.log(show);
+  const date = data.date_to.replace(/[\D]/g, "");
 
   return (
     <div className="academic-box">
-      <span className="academic-box_date">2023</span>
+      <span className="academic-box_date">{date}</span>
 
       <div className="academic-box_info">
         <div className="academic-box_point" />
