@@ -38,7 +38,7 @@
   }
 
   .gen-tools ul {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .gen-tools li {
