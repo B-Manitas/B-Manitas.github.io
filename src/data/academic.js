@@ -1,5 +1,15 @@
 const ACADEMIC = [
   {
+    id: 6,
+    type: "degree",
+    title: "Master's degree - Data Science (Second year)",
+    location: "Orsay, France",
+    date_from: "2024",
+    date_to: "2025",
+    school: "Paris-Saclay University",
+    link: "https://www.universite-paris-saclay.fr/formation/master/informatique/m2-data-science",
+  },
+  {
     id: 5,
     type: "internship",
     title: "Enedis Internship - Unsupervised Machine Learning",
